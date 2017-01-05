@@ -31,6 +31,7 @@ if [ ! -f "$DAYFILE" ]; then
 	echo "==========" >> "$DAYFILE"
 	echo "" >> "$DAYFILE"
 	echo "Sleep: ?" >> "$DAYFILE"
+	echo "" >> "$DAYFILE"
 else
 	echo "" >> "$DAYFILE"
 	echo "" >> "$DAYFILE"
